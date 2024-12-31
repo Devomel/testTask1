@@ -66,5 +66,5 @@ function findNext(candidates, used) {
 function formatResult(chain) {
    return chain
       .map((item, index) => (index === 0 ? item.toString().slice(0, item.toString().length - 2) : item.toString().slice(2)))
-      .join("||");
+      .join("");
 }
